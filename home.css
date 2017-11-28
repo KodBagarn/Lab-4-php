@@ -1,0 +1,168 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #ccc;
+	margin: 15px;
+	padding: 30px; 
+	border: solid 4px #605404;
+}
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+	background-color: rgba(255,255,255,0.9);
+}
+
+header > img {
+	position: relative;
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+header > h1{
+	color: #ccc;
+	font-size: 50px;
+	background-color: rgba(0,0,0,0.7);
+	padding: 7px;
+	margin-top: 60px;
+	margin-left: 10px;
+	font-family: Georgia;
+	font-style: italic;
+	position: absolute;
+	z-index: +1;
+}
+
+#mainMenu{
+	width: : 960px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+#mainMenu > a {
+	margin-left: 5;
+	margin-right: 5;
+	display: inline-block;
+	max-width: : 120px;
+	padding: 10px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration: none;
+	color: #000000;
+	border: solid 3px #ccc;
+}
+
+#mainMenu > a:hover {
+	background-color: #d18a62;
+}
+
+.active {
+	background-color: #ce6d35;
+}
+
+main > p {
+	padding:20px;
+	margin: 0;
+}
+
+main {
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px;
+	background-color: rgba(255,255,255, 0.9);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+hr{
+	width: 800px;
+	height: 3px;
+	background-color: grey;
+	border: none;
+}
+
+
+footer {
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer > h4 {
+	font-style: normal;
+	font-size: 15px;
+	padding: 8px;
+	margin: 0;
+}
+
+#aboutUsImg {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+td {
+	text-align: left;
+}
+
+form {
+	padding: 25px;
+	padding-left: 75px;
+	text-align: left;
+}
+
+form > input {
+	padding: 5px;
+	margin: 5px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+
+
+#bookList {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.TA {
+	font-weight: 900;
+}
+
+main > .searchResult {
+	background-color: rgba(0,0,0,0.3);
+}
+
+table {
+	margin: 20px;
+	padding: 5px;
+}
+
+#uploadLink{
+	color: #ce6d35;
+	font-weight: 900;
+	border: solid grey 2px;
+	padding: 5px;
+	text-decoration: none;
+	background-color: #ccc;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.imagefolder{
+	display: inline-block;
+}
+
+.imagefolder > img{
+	max-width: 400px;
+	clear:left;
+}
